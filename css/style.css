@@ -5,13 +5,14 @@ h1 {
 body
 {
     background-color: rgb(197, 78, 22);
+    margin: 0;
 }
 header
 {
     background-color: white;
     height: 130px; 
     width: 100%;
-    text-align: center;
+    text-align: right;
     padding: 20px;
 }
 
@@ -21,3 +22,88 @@ header nav
 float:left ;
 
 } 
+header h1
+{
+    text-align: center;
+    margin:0;
+}
+
+header nav ul li 
+{
+    
+    display: inline-block;
+    margin-left: 0px;
+    
+}
+
+header nav ul li a
+{
+    color: rgb(121, 25, 25);
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+
+
+/* #first
+{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(43, 55, 223);
+    text-align: left;
+    font-weight: bold;
+    margin: 40px 0 30px 50%;
+} */
+
+#second
+ {
+     background-color: blue;
+     color: white;
+   
+    }
+    
+.cont
+{
+  
+    text-align: center;
+    height: 450px;
+    width: 40%;
+       
+}
+.cont img 
+{
+   width: 50%;
+   height: 50%;
+   display: inline-block;
+
+} 
+
+footer
+{
+    height: 100;
+    
+    background-color: darkslategray;
+    color: white;
+
+}
+footer p 
+{
+    text-align: center;
+    font-size: xx-large;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+div
+{
+    text-align: center;
+    font-size: xx-large;
+    display: inline-block;
+    
+}
+
+div img
+{   width: 25%;
+    height: 25%;
+    display: inline-block;
+}
